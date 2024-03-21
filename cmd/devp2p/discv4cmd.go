@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Pond-International/go-ethereum/cmd/devp2p/internal/v4test"
+	"github.com/Pond-International/go-ethereum/common"
+	"github.com/Pond-International/go-ethereum/crypto"
+	"github.com/Pond-International/go-ethereum/internal/flags"
+	"github.com/Pond-International/go-ethereum/p2p/discover"
+	"github.com/Pond-International/go-ethereum/p2p/enode"
+	"github.com/Pond-International/go-ethereum/params"
 	"github.com/urfave/cli/v2"
 )
 

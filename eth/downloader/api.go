@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Pond-International/go-ethereum"
+	"github.com/Pond-International/go-ethereum/core"
+	"github.com/Pond-International/go-ethereum/event"
+	"github.com/Pond-International/go-ethereum/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

@@ -19,9 +19,9 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Pond-International/go-ethereum/common"
+	"github.com/Pond-International/go-ethereum/ethdb"
+	"github.com/Pond-International/go-ethereum/log"
 )
 
 // ReadSnapshotDisabled retrieves if the snapshot maintenance is disabled.

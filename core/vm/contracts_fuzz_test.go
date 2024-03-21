@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Pond-International/go-ethereum/common"
 )
 
 func FuzzPrecompiledContracts(f *testing.F) {

@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/rules"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/Pond-International/go-ethereum/accounts"
+	"github.com/Pond-International/go-ethereum/accounts/keystore"
+	"github.com/Pond-International/go-ethereum/cmd/utils"
+	"github.com/Pond-International/go-ethereum/common"
+	"github.com/Pond-International/go-ethereum/common/hexutil"
+	"github.com/Pond-International/go-ethereum/core/types"
+	"github.com/Pond-International/go-ethereum/crypto"
+	"github.com/Pond-International/go-ethereum/internal/ethapi"
+	"github.com/Pond-International/go-ethereum/internal/flags"
+	"github.com/Pond-International/go-ethereum/log"
+	"github.com/Pond-International/go-ethereum/node"
+	"github.com/Pond-International/go-ethereum/params"
+	"github.com/Pond-International/go-ethereum/rlp"
+	"github.com/Pond-International/go-ethereum/rpc"
+	"github.com/Pond-International/go-ethereum/signer/core"
+	"github.com/Pond-International/go-ethereum/signer/core/apitypes"
+	"github.com/Pond-International/go-ethereum/signer/fourbyte"
+	"github.com/Pond-International/go-ethereum/signer/rules"
+	"github.com/Pond-International/go-ethereum/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -873,7 +873,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ethereum/go-ethereum/issues/20123
+	// https://github.com/Pond-International/go-ethereum/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

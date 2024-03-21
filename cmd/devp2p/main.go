@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Pond-International/go-ethereum/internal/debug"
+	"github.com/Pond-International/go-ethereum/internal/flags"
+	"github.com/Pond-International/go-ethereum/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 
